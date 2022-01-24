@@ -7,6 +7,7 @@
       </header>
       <hr class="border-red-700" > 
       <Card />
+      <Table />
     </main>
     <aside class="flex flex-col gap-y6 pt-6 pr-6 w-96">
       <RightSideBar />
@@ -18,4 +19,5 @@
 import SideBar from './components/SideBar.vue'
 import RightSideBar from './components/RightSideBar.vue';
 import Card from './components/Card.vue';
+import Table from './components/Table.vue';
 </script>
